@@ -1,5 +1,8 @@
 asdfjaksjdfkljaklsdjfklaj
 
-[[google.com]]
 
-[asdkfjla](google.com)
+[asdkfjla](https://google.com)
+
+![hello](embedthis)
+
+![[embedthis]]
