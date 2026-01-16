@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "New title",
+    pageTitle: "Extensive Course Setup Manual Page",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -71,9 +71,12 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex", katexOptions: { output: "mathml" } }),
+      Plugin.Latex({renderEngine: "katex"}),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      // Plugin.RemoveDrafts(),
+      Plugin.ExplicitPublish(),
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
