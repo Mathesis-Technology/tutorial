@@ -207,6 +207,9 @@ This extra remote tracking will allow you to update your Quartz instance when pa
 
 During this process you may be prompted to enter your login information to authenticate in the browser, this is normal and necessary to complete the git syncing process, and should only be required once.
 
+> [!warning] 
+> Windows users may find that their credentials have been corrupted after a period of time. To fix this go to Credential Manager > Windows Credentials and delete any credentials saved for github.com.
+
 Now that you have your remote repository set up, you can perform your first push by running
 
 ``` bash
