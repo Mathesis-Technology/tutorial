@@ -265,7 +265,7 @@ Next navigate to the directory you set up your quartz files in, and open the qua
 
 ### Reference to Obsidian Syntax
 
-For those unfamiliar with markdown or Obsidian syntax it will be useful to review Obsidian’s [basic formatting documentation](https://help.obsidian.md/syntax). For math content specifically, it’s important to note that inline math (written in LaTeX) must appear in single $, and block math must appear inside double \$\$, with each \$\$ on its own line. We already have some inline math rendering in the placeholder index.md file and below is an example of block math.  
+For those unfamiliar with markdown or Obsidian syntax it will be useful to review Obsidian’s [basic formatting documentation](https://help.obsidian.md/syntax). For math content specifically, it’s important to note that inline math (written in LaTeX) must appear in single \$, and block math must appear inside double \$\$, with each \$\$ on its own line. We already have some inline math rendering in the placeholder index.md file and below is an example of block math.  
   
 ``` latex
 $$  
