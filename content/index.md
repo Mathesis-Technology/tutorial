@@ -5,7 +5,6 @@ publish: true
 # Introduction
 
 This web page provides a full step-by-step guide for converting math notes in the form of markdown (.md) into HTML, CSS and JavaScript, and publishing them with MathML output. Non-technical users should be able to follow along procedurally without knowing the deeper mechanisms of the system. An understanding of the web, HTML and Git will be helpful but not necessary.
-
 ### Technical Overview
 
 Here we show a high level overview of the different parts of the system and how they fit together. Non-technical readers with no desire to fully understand our solution, or technical users with prior experience in web development may skip forward, but reading through this section is highly recommended to help solidify knowledge. This section is framed to provide users with little or no web experience a conceptual framework that will assist them in the remainder of the tutorial. To properly break down the system we will go through each tool and its function.
