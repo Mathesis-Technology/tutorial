@@ -2,7 +2,12 @@
 title: Full Quartz Setup Manual for Instructors
 publish: true
 ---
-# Introduction
+
+# Email List
+
+Provide your email address [here](https://forms.gle/4JzZNPf362Tb9Sug8) to receive updates and ask questions.
+
+# Tutorial Introduction
 
 This web page provides a full step-by-step guide for converting math notes in the form of markdown (.md) into HTML, CSS and JavaScript, and publishing them with MathML output. Non-technical users should be able to follow along procedurally without knowing the deeper mechanisms of the system. An understanding of the web, HTML and Git will be helpful but not necessary.
 ### Technical Overview
